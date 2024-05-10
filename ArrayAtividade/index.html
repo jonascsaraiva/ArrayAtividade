@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Array</title>
+    
+    <link rel="stylesheet" href="Css/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@200;400&display=swap" rel="stylesheet">
+
+
+    <script src="/Js/script.js"></script>
+</head>
+<body>
+    
+    <header>
+        <h1>Lista de Objetos</h1>
+    </header>
+    
+    <main>
+        <div class="title">
+            <h2>Digite abaixo os objetos de sua escolha</h2>
+        </div>
+
+        <div class="card">
+            <div class="nameinput">
+                <label>Objeto</label>
+                
+                <input type="text" id="objeto" placeholder="Ex: Toalhas">
+                
+                <button type="submit" onclick="objeto.salvar()" id="btn1">Salvar</button>
+                <button onclick="objeto.cancelar()">Cancelar</button>
+            </div>
+
+        </div>
+
+        <div class="content">
+            <table border="1">
+                <thead>
+                    <th class="center">ID</th>
+                    <th>Objeto</th>
+                    <th class="center">Ações</th>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+
+   </body>
+</html>

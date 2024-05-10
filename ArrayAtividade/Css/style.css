@@ -1,0 +1,106 @@
+*{ 
+  margin: 0;
+}
+
+body {
+  font-family: 'Playpen Sans', cursive;
+  background-image: url(/Imagens/fundo_space.jpg);
+}
+
+header {  
+  background-color: rgb(90, 11, 90);
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-family: 'Playpen Sans', cursive;
+}
+
+main {
+  padding: 50px 30px;
+  color: white;
+}
+
+.nameinput {
+  display: center;
+
+}
+
+.card {
+  display: block;
+  background-color: rgba(128, 128, 128, 0.4);
+  border: 1px solid white;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 3px;
+}
+
+.lineinput {
+  display: grid;
+}
+
+input {  
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border-radius: 3px;
+  outline: 0;
+  transition: all ease 0.05s;
+}
+
+input:hover {
+  background-color: rgba(128, 128, 128, 0.5);
+  border-color: rgb(255, 255, 255);
+}
+
+button {
+  padding: 10px;
+  border: 1px solid white;
+  background-color:transparent;
+  color: white;
+  border-radius: 2px;
+  font-weight: bold;
+  transition: all ease 0.05s;
+}
+
+button:hover {
+  background-color: rgba(128, 128, 128, 0.4);
+  color: white;
+  border-color: rgb(255, 255, 255);
+}
+
+.content {
+  margin-top: 15px;
+
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid white;
+  width: 100%;
+}
+
+table th {
+  background-color: rgba(128, 128, 128, 0.4);
+}
+
+table th,td {
+  background-color: rgba(128, 128, 128, 0.4);
+  padding: 1px 5px;
+  text-align: left;
+}
+
+table td img {
+  padding: 11px;
+  width: 22px;
+  
+}
+
+.center {
+  text-align: center;
+}
+
+.ionicons {
+  color: white;
+}
